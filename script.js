@@ -7,8 +7,10 @@
 function range(start , end) {
     let range = [];
    
-    for (let i = 0; i < end.length; i++)
+    for (let i = 0; i < end.length; i++) {
         range.push[i];
+    }
+        return range;
 }
  console.log(range[1, 10]);
 
