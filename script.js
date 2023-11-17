@@ -6,7 +6,7 @@
 
 function range(start, end) {
     let rangeArray = [];
-    for (let i = start; i < end.length; i++) {
+    for (let i = start; i <= end.length; i++) {
         rangeArray.push[i];
     }
         return rangeArray;
