@@ -4,13 +4,13 @@
 // console.log(range(1, 10)); // outputs [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-function range(start , end) {
-    let range = [];
+function range(start, end) {
+    let rangeArray = [];
    
     for (let i = 0; i < end.length; i++) {
-        range.push[i];
+        rangeArray.push[i];
     }
-        return range;
+        return rangeArray;
 }
  console.log(range[1, 10]);
 
