@@ -11,7 +11,7 @@ function range(start, end) {
     }
         return rangeArray;
 }
- console.log(range[1, 10]);
+ console.log(range(1, 10));
 
 // 2. Next, write a sum function that takes an array of numbers and returns the sum of
 // these numbers. Run the example program and see whether it does indeed return 55.
