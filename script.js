@@ -11,14 +11,20 @@ function range(start, end) {
     }
         return rangeArray;
 }
- console.log(range(1, 10));
+ console.log(range(1, 10));  //does not work, not sure what else to change 
+
+
 
 // 2. Next, write a sum function that takes an array of numbers and returns the sum of
 // these numbers. Run the example program and see whether it does indeed return 55.
 // Example output:
 // console.log(sum(range(1, 10))); // returns 55
 
+    // when example was ran, it gave an error and states sum is not defined
 
+function sum() {
+
+}
 
 
 
