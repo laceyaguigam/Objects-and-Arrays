@@ -4,9 +4,11 @@
 // console.log(range(1, 10)); // outputs [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-function range('start' , 'end') {
-   for (let i = 0; i < end.length; i++)
-   let range = [];
+function range(start , end) {
+    let range = [];
+   
+    for (let i = 0; i < end.length; i++)
+        range.push[i];
 }
  console.log(range[1, 10]);
 
