@@ -25,7 +25,7 @@ function range(start, end) {
 function sum(array) {
     let addition = 0
     for (let i = 0; i < array; i++) {
-        
+        addition += array(i);
     }
 }
 console.log(sum(range(1, 10)));
