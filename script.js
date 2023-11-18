@@ -11,7 +11,7 @@ function range(start, end) {
     }
         return rangeArray;
 }
- console.log(range(1, 10));  //does not work, not sure what else to change 
+ console.log(range(1, 10)); 
 
 
 
@@ -23,9 +23,12 @@ function range(start, end) {
     // when example was ran, it gave an error and states sum is not defined
 
 function sum(array) {
-    let 
+    let addition = 0
+    for (let i = 0; i < array; i++) {
+        
+    }
 }
-console.log(sum)
+console.log(sum(range(1, 10)));
 
 
 // 3. Arrays have a reverse method that changes the array by inverting the order in which
