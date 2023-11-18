@@ -6,8 +6,8 @@
 
 function range(start, end) {
     let rangeArray = [];
-    for (let i = start; i <= end.length; i++) {
-        rangeArray.push[i];
+    for (let i = start; i <= end; i++) {
+        rangeArray.push(i);
     }
         return rangeArray;
 }
@@ -22,10 +22,10 @@ function range(start, end) {
 
     // when example was ran, it gave an error and states sum is not defined
 
-function sum() {
-
+function sum(array) {
+    let 
 }
-
+console.log(sum)
 
 
 // 3. Arrays have a reverse method that changes the array by inverting the order in which
