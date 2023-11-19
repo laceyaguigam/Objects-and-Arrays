@@ -52,14 +52,14 @@ function reverseArray(array) {
     for (let i = array; i >= 0; i --) {
         reverse.push(i);
     }                                //supposed to produce a new array but in reverse
-        return reverse;
+        return reverse;             // doesnt work
 }
 console.log(reverseArray(["A",  "B", "C"]));
 
 
 
 
-
+                                    //not sure about this one, will ask in class
 function reverseArrayInPlace() {
 
 }
