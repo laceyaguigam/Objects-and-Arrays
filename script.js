@@ -48,8 +48,16 @@ console.log(sum(range(1, 10)));
 
 
 function reverseArray(array) {
-                                    //supposed to produce a new array but in reverse
+    let reverse = []; 
+    for (let i = array; i >= 0; i --) {
+        reverse.push(i);
+    }                                //supposed to produce a new array but in reverse
+        return reverse;
 }
+console.log(reverseArray(["A",  "B", "C"]));
+
+
+
 
 
 function reverseArrayInPlace() {
