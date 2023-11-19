@@ -22,7 +22,7 @@ function range(start, end) {
 
     // when example was ran, it gave an error and states sum is not defined
 
-function sum(array) {
+function sum(array) {                  // doesn't work 
     let addition = 0
     for (let i = 0; i < array; i++) {
         addition += array[i];
@@ -45,3 +45,13 @@ console.log(sum(range(1, 10)));
 // let arrayValue = [1, 2, 3, 4, 5];
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
+
+
+function reverseArray(array) {
+                                    //supposed to produce a new array but in reverse
+}
+
+
+function reverseArrayInPlace() {
+
+}
