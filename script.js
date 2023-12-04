@@ -50,10 +50,10 @@ console.log(sum(range(1, 10)));
 
 function reverseArray(array) {
     let reverse = []; 
-    for (let i = array; i >= 0; i --) {
+    for (let i = array.length; i >= 0; i --) {
         reverse.push(i);
-    }                                //supposed to produce a new array but in reverse
-        return reverse;             // doesnt work
+    }                                //works but doesn't work, gives numbers not letters
+        return reverse;             
 }
 console.log(reverseArray(["A",  "B", "C"]));
 
@@ -62,5 +62,8 @@ console.log(reverseArray(["A",  "B", "C"]));
 
                                     //not sure about this one, will ask in class
 function reverseArrayInPlace() {
-
+    for (let i = 0; i ; i++ ) {
+        
+    }
 }
+console.log(arrayValue);
