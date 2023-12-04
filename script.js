@@ -22,11 +22,12 @@ function range(start, end) {
 
     // when example was ran, it gave an error and states sum is not defined
 
-function sum(array) {                  // doesn't work 
-    let addition = 0
-    for (let i = 0; i < array; i++) {
+function sum(array) {                  
+    let addition = 0;
+    for (let i = 0; i < array.length; i++) {
         addition += array[i];
     }
+    return addition;
 }
 console.log(sum(range(1, 10)));
 
