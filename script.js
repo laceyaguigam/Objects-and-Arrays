@@ -60,10 +60,31 @@ console.log(reverseArray(["A",  "B", "C"]));
 
 
 
-                                    //not sure about this one, will ask in class
-function reverseArrayInPlace() {
-    for (let i = 0; i ; i++ ) {
-        
+                                    
+function reverseArrayInPlace(array) {
+    
+    let midPoint = 0;
+
+    if (array.length % 2 == 0) {
+        midPoint = array.length / 2 -1;
+    } else {
+        midPoint = array.length / 2;
+    }
+    
+
+    for (let i = 0; i <= midPoint; i++ ) {
+        let shortTerm = array[i];
+        array[i] = array[array.length -i -1];
+        array[array.length -i -1] = shortTerm;
+    }
+    return array;
+}
+
+function activateArray(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
     }
 }
-console.log(arrayValue);
+let arrayValue = [1, 2, 3, 4, 5];
+console.log(reverseArray(reverseArrayInPlace));
+console.log(reverseArrayInPlace(reverseThisArray)); 
